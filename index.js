@@ -138,8 +138,10 @@ Use the removeFlavorByName function below to do the following:
     HINT: You can use .splice() for this
 */
 
-function removeFlavorByName(/*your code here*/){
-    /*your code here*/
+function removeFlavorByName(arr, str){
+    let removeFlavor = arr.indexOf(str);
+    arr.splice(removeFlavor,1);
+    return arr;
 }
 
 
